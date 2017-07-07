@@ -1,3 +1,10 @@
+erlang-goldrush (0.1.9-0.1) unstable; urgency=medium
+
+  * New upstream release.
+  * Now maintaining this package for https://apt.jabber.at.
+
+ -- Mathias Ertl <mati@jabber.at>  Fri, 07 Jul 2017 18:44:23 +0200
+
 erlang-goldrush (0.1.6-2) unstable; urgency=medium
 
   * Add correct Erlang dependencies
