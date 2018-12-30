@@ -1,2 +1,3 @@
 version=3
-http://githubredir.debian.net/github/DeadZen/goldrush/ (.*).tar.gz
+opts="filenamemangle=s/.*\/v?(\d\S*)\.tar\.gz/erlang-goldrush_$1.tar.gz/" \
+  https://github.com/DeadZen/goldrush/releases .*/v?(\d\S*)\.tar\.gz

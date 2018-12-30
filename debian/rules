@@ -1,13 +1,14 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
+export DH_VERBOSE=1
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+include /usr/share/dpkg/default.mk
 
-include /usr/share/dpkg/pkg-info.mk
+DESTDIR=$(CURDIR)/debian/erlang-goldrush
+
 
 %:
 	dh $@ --buildsystem=rebar --with rebar
+
 
 get-orig-source:
 	dh_testdir

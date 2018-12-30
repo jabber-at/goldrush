@@ -10,6 +10,7 @@ erlang-goldrush (0.2.0-0.1) unstable; urgency=medium
   * Updated Standards-Version: 4.1.4 (no changes needed)
   * Updated years in debian/copyright
   * Added erlang-base to Build-Depends
+  * Improved watch file
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 30 Dec 2018 14:17:45 +0100
 
