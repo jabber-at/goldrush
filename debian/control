@@ -1,17 +1,22 @@
 Source: erlang-goldrush
 Maintainer: Mathias Ertl <mati@jabber.at>
 XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
-Priority: optional
 Section: libs
-Build-Depends: debhelper (>= 9), dh-rebar, erlang-dev (>= 1:17.5), erlang-crypto,
- erlang-syntax-tools
+Priority: optional
+Build-Depends: debhelper (>= 11),
+               dh-rebar,
+               erlang-base,
+               erlang-crypto,
+               erlang-syntax-tools,
+               erlang-eunit
 Standards-Version: 4.1.4
 Homepage: https://github.com/DeadZen/goldrush
 
-
 Package: erlang-goldrush
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-base | ${erlang-abi:Depends},
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         erlang-base | ${erlang-abi:Depends},
          ${erlang:Depends}
 Description: small Erlang app that provides fast event stream processing
  Goldrush is a small Erlang app that provides fast event stream processing

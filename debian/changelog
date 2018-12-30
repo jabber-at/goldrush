@@ -5,7 +5,9 @@ erlang-goldrush (0.2.0-0.1) unstable; urgency=medium
 
   Changes merged from the upstream Debian package:
   * Use secure copyright format uri in debian/copyright
+  * Switched to debhelper 11
   * Updated Standards-Version: 4.1.4 (no changes needed)
+  * Added erlang-base to Build-Depends
 
  -- Mathias Ertl <mati@jabber.at>  Sun, 30 Dec 2018 14:17:45 +0100
 
