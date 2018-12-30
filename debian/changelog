@@ -1,3 +1,11 @@
+erlang-goldrush (0.2.0-0.1) unstable; urgency=medium
+
+  * New upstream version 0.2.0
+
+  Changes merged from the upstream Debian package:
+
+ -- Mathias Ertl <mati@jabber.at>  Sun, 30 Dec 2018 14:17:45 +0100
+
 erlang-goldrush (0.1.9-0.1) unstable; urgency=medium
 
   * New upstream release.
