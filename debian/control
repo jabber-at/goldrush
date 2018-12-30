@@ -1,11 +1,11 @@
 Source: erlang-goldrush
-Priority: optional
 Maintainer: Mathias Ertl <mati@jabber.at>
 XSBC-Orig-Maintainer: Philipp Huebner <debalance@debian.org>
+Priority: optional
+Section: libs
 Build-Depends: debhelper (>= 9), dh-rebar, erlang-dev (>= 1:17.5), erlang-crypto,
  erlang-syntax-tools
-Standards-Version: 4.0.0
-Section: libs
+Standards-Version: 4.1.4
 Homepage: https://github.com/DeadZen/goldrush
 
 
